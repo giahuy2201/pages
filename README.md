@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to pages
 
-You can use the [editor on GitHub](https://github.com/giahuy2201/pages/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the place where i show all of my web pages i have been making when i learn web development
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Check them out
 
-### Markdown
+All of the pages can be accessed from my [GitHub Page site](https://giahuy2201.github.io/pages/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/giahuy2201/pages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [x] [an inquiry letter](https://giahuy2201.github.io/pages/a-letter/index.html)
+- [ ] a birdwatching site
