@@ -8,4 +8,4 @@ All of the pages can be accessed from [my GitHub Page site](https://giahuy2201.g
 
 - [x] [an inquiry letter](https://giahuy2201.github.io/pages/a-letter/index.html)
 - [x] [a birdwatching site](https://giahuy2201.github.io/pages/birdwatching/index.html)
-- [ ] 
+- [x] [a payment form](https://giahuy2201.github.io/pages/payform/index.html)
