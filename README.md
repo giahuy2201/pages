@@ -6,6 +6,7 @@ This is the place where i show all of my web pages i have been making when i lea
 
 All of the pages can be accessed from [my GitHub Page site](https://giahuy2201.github.io/pages/)
 
-- [x] [an inquiry letter](https://giahuy2201.github.io/pages/a-letter/index.html)
-- [x] [a birdwatching site](https://giahuy2201.github.io/pages/birdwatching/index.html)
-- [x] [a payment form](https://giahuy2201.github.io/pages/payform/index.html)
+- [x] [an inquiry letter](https://giahuy2201.github.io/pages/a-letter)
+- [x] [a birdwatching site](https://giahuy2201.github.io/pages/birdwatching)
+- [x] [a payment form](https://giahuy2201.github.io/pages/payform)
+- [x] [a college page](https://giahuy2201.github.io/pages/college-page)

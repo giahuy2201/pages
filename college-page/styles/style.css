@@ -1,0 +1,146 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  /* typography */
+
+  @font-face {
+      font-family: 'merri-weather';
+      src: url(../fonts/Merriweather-Regular.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'amiri';
+    src: url(../fonts/Amiri-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  h1, h2 {
+      font-family:  'merri-weather';
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 3em;
+  }
+
+  h2 {
+      letter-spacing: 0.2em;
+  }
+
+  p, li {
+      font-family: 'amiri';
+      font-size: 1.2em;
+      line-height: 1.5;
+  }
+
+  article p:first-of-type {
+      text-indent: 20px;
+      /* color: red; */
+  }
+
+  ul li {
+      list-style-type: square;
+  }
+
+  ol li {
+      list-style-type: lower-alpha;
+  }
+
+  nav ul {
+      padding: 0;
+  }
+
+  nav li {
+      list-style-type: none;
+  }
+
+  nav li a {
+      display: block;
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: lighter;
+      border: 2px solid #a66;
+      text-align: center;
+      width: 100%;
+  }
+
+  nav li a:hover {
+      background-color: #a66;
+      color: white;
+  }
+
+  nav li a:active {
+      background-color: black;
+      color: #a66;
+  }
+
+  a {
+      color: #a66;
+      text-decoration: underline;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  a:active{
+      color: red;
+      text-shadow: 0 0 4px black;
+  }
+
+  a[href*="https"] {
+      background-image: url(../images/external-link-52.png);
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: 16px 16px;
+      padding-right: 19px;
+  }
