@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="256px" viewBox="0 0 384 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>vamz_dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vamz_dark">
+            <rect fill="#1C1C1C" x="0" y="0" width="384" height="256"></rect>
+            <g id="name" transform="translate(44.000000, 28.000000)">
+                <text id="AMZ" font-family="Arial-BoldMT, Arial" font-size="100" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="79.1992188" y="136">AMZ</tspan>
+                </text>
+                <text id="V" font-family="Arial-BoldMT, Arial" font-size="150" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.475585938" y="136">V</tspan>
+                </text>
+                <path d="M98.5,36.7 L289.5,37" id="Line" stroke="#FFFFFF" stroke-width="16" stroke-linecap="square"></path>
+            </g>
+            <text id="''OFF-THE-WALL''" font-family="Arial-BoldMT, Arial" font-size="40" font-weight="bold" fill="#FFFFFF">
+                <tspan x="24.1191406" y="220">''OFF THE WALL''</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
