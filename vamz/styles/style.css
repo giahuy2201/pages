@@ -80,7 +80,7 @@
     line-height: 64px;
 }
 
-.navbar__item:nth-child(-n+4)>.navbar__link::after {
+.has-dropdown>.navbar__link::after {
     content: "∨";
     font-weight: bold;
     font-size: 0.8rem;
@@ -95,19 +95,24 @@
     color: black;
     text-decoration: none;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0;
     position: relative;
     display: block;
     height: 64px;
     line-height: 64px;
 }
 
-.navbar__item:nth-child(n+5)>.navbar__link {
-    padding-right: 0;
+.has-dropdown>.navbar__link {
+    padding-right: 20px;
 }
 
 .navbar__link:hover {
     color: #d31d28;
+}
+
+.has-dropdown .navbar__link:hover {
+    background: url(../images/nav_arrow.png) no-repeat bottom center;
+    background-size: 16px 8px;
 }
 
 .header__form {
@@ -139,6 +144,109 @@
     line-height: 30px;
     box-sizing: border-box;
 }
+
+.has-dropdown:hover>.navbar__dropdown {
+    display: block;
+    transition-delay: 0.5s;
+}
+
+.navbar__dropdown:hover~.navbar__link {
+    color: #d31d28;
+    background: url(../images/nav_arrow.png) no-repeat bottom center;
+    background-size: 16px 8px;
+}
+
+.navbar__dropdown {
+    display: none;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 95px;
+    padding: 20px;
+}
+
+.dropdown__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown__col {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 60px;
+    width: 150px;
+}
+
+.dropdown__col:first-child {
+    padding-left: 0;
+}
+
+.dropdown__item {
+    flex: 1;
+}
+
+.dropdown__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 2;
+    font-weight: 500;
+    color: #87bfe1;
+}
+
+.dropdown__link:hover {
+    color: #d31d28;
+}
+
+.col__head {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.col__featured {
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 3;
+}
+
+.col__highligh {
+    text-transform: uppercase;
+}
+
+.navbar__dropdown>.alert {
+    font-style: italic;
+    background-color: #000;
+}
+
+.navbar__dropdown .alert__link {
+    border-bottom: 1px double red;
+    font-size: 0.7rem;
+}
+
+.alert__span {
+    border-bottom: 1px solid red;
+}
+
+.menu__col {
+    padding-left: 20px;
+}
+
+.col__tit {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navbar__more {
+    width: auto;
+    left: 700px;
+}
+
+
+/* Main page  */
 
 .alert {
     padding: 5px;
