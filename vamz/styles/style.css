@@ -48,6 +48,10 @@
     text-decoration: none;
 }
 
+.upnav__link:hover {
+    color: #d31d28;
+}
+
 .header__navbar {
     /* flex: 0 1 auto; */
     flex: 2;
@@ -147,6 +151,38 @@
 .alert__link {
     color: #5b9cc4;
     font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #d31d28;
+    padding-bottom: 2px;
+}
+
+.alert__link:hover {
+    color: #d31d28;
+}
+
+.main__miniaside {
+    background-color: #d31d28;
+    width: 30px;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+
+.aside__items {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.aside__icon {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
 }
 
 .main__showcase {
@@ -279,6 +315,12 @@
     letter-spacing: 2px;
 }
 
+.category__subheading:hover {
+    background-color: #d31d28;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+
 
 /* News */
 
@@ -315,6 +357,10 @@
     font-size: 0.8rem;
 }
 
+.article__link:hover {
+    color: #d31d28;
+}
+
 .btn {
     display: block;
     margin: 0 auto;
@@ -329,6 +375,10 @@
 
 .btn-lg {
     width: 290px;
+}
+
+.btn:hover {
+    background-color: black;
 }
 
 .footer {
@@ -375,6 +425,10 @@
     line-height: 24px;
 }
 
+.nav-col__link:hover {
+    color: #d31d28;
+}
+
 .nav-col__contact {
     color: grey;
     font-size: 0.8rem;
@@ -399,6 +453,10 @@
     height: 48px;
 }
 
+.btn-att:hover {
+    background-color: #9f1729;
+}
+
 .soc {
     list-style-type: none;
     padding: 0;
@@ -417,7 +475,27 @@
     color: white;
     text-align: center;
     line-height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.link-twr:hover {
+    background-color: #1da9e4;
+}
+
+.link-fb:hover {
+    background-color: #3b5893;
+}
+
+.link-pin:hover {
+    background-color: #c8232b;
+}
+
+.link-you:hover {
+    background-color: #b90711;
+}
+
+.link-ins:hover {
+    background-color: #5380A2;
 }
 
 .loc-soc__form {
@@ -446,6 +524,10 @@
     line-height: 40px;
 }
 
+.form__send:hover {
+    background-color: black;
+}
+
 .footer-extra {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -460,4 +542,16 @@
     display: inline;
     vertical-align: top;
     color: gray;
+}
+
+.footer__disclaimer {
+    color: gray;
+    text-align: center;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.disclaimer__link {
+    color: #d31d28;
+    text-decoration: none;
 }
