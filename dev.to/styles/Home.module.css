@@ -1,0 +1,32 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .middle, .right {
+  height: 300px;
+}
+
+.left{
+  flex: 1;
+  background-color: yellowgreen;
+  margin: 0 8px;
+}
+.middle{
+  flex: 1;
+  background-color: blueviolet;
+  margin: 0 8px;
+}
+.right{
+  flex: 1;
+  background-color: orange;
+  margin: 0 8px;
+}

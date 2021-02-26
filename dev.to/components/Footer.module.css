@@ -1,0 +1,57 @@
+
+.footer{
+    /* height: 200px; */
+    width: 100%;
+    background-color: #ccd0d6;
+}
+
+.container{
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #4c535c;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.icon{
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 0 15px;
+}
+
+.item:hover{
+    color: #3246d4;
+}
+
+.line{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.note{
+    /* width: 100%; */
+    margin: 0 auto;
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+.sprout{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url("/sprout.png") no-repeat center;
+    background-size: contain;
+}
