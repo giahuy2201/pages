@@ -1,0 +1,75 @@
+.card {
+    border-radius: 4px;
+    border: 1px solid #d2d4d4;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.head {
+    color: gray;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding-left: 40px;
+}
+
+.foot {
+    padding-left: 40px;
+    color: #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #d2d4d4;
+    background-color: aquamarine;
+    margin-right: 10px;
+}
+
+.user {
+}
+
+.time {
+    font-size: 0.8em;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.tags {
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    margin-right: 15px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.reactions,
+.comments {
+    margin-right: 15px;
+}
+.readtime,
+.savebtn {
+    margin-left: 15px;
+}
