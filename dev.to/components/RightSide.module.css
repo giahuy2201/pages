@@ -1,0 +1,30 @@
+.card{
+    border-radius: 4px;
+    border: 1px solid #dee0e2;
+    background-color: #f8f9f9;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.img{
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.note{
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.link{
+    color: #3246d4;
+    font-weight: bold;
+}

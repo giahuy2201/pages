@@ -1,5 +1,6 @@
 import { Article } from "../utils/interfaces";
 import Card from "./Card";
+import Sorting from "./Sorting";
 import styles from "./Feed.module.css";
 
 const data = {
@@ -54,11 +55,14 @@ interface FeedProps {
 
 const Feed: React.FC<FeedProps> = (props) => {
     return (
-        <div className={styles.grid}>
+        <>
+        <Sorting></Sorting>
+        <div className={styles.list}>
             {data.articles.map((article) => (
                 <Card article={article}></Card>
             ))}
         </div>
+        </>
     );
 };
 
